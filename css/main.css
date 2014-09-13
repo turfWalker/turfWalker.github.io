@@ -1,0 +1,230 @@
+#playlist,audio{background:#666;width:400px;padding:20px;}
+.active a{color:#5DB0E6;text-decoration:none;}
+li a{color:#eeeedd;background:#333;padding:5px;display:block;}
+li a:hover{text-decoration:none;}
+
+@keyframes robo 
+{
+  from
+  {
+    left:800px;
+  }
+}
+@-webkit-keyframes robo
+{
+  from
+  {
+    left:800px;
+  }
+}
+@-moz-keyframes robo 
+{
+  from
+  {
+    left:800px;
+  }
+}
+.robot {
+animation: robo 3s infinite alternate;
+  -webkit-animation: robo 3s infinite alternate;
+  -moz-animation: robo 3s infinite alternate;
+  position: relative;
+  left: 200px;
+}
+
+.beep {
+  width: 5px;
+  height: 0;
+  border: 5px solid transparent;
+  border-top: 10px solid #777;
+  border-bottom: 80px solid #888;
+  position: relative;
+  left: 140px;
+}
+
+@keyframes blink {
+  50% {
+    background: radial-gradient(circle, red 15%, transparent 40%), #cc5;
+    background-size: 50% 100%;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    background: -webkit-radial-gradient(circle, red 15%, transparent 40%), #cc5;
+    background-size: 50% 100%;
+  }
+}
+@-moz-keyframes blink {
+  50% {
+    background: -moz-radial-gradient(circle, red 15%, transparent 40%), #cc5;
+    background-size: 50% 100%;
+  }
+}
+@keyframes dance 
+{
+  from
+  {
+    left:800px;
+  }
+}
+@-webkit-keyframes dance 
+{
+  from
+  {
+    left:800px;
+  }
+}
+@-moz-keyframes dance 
+{
+  from
+  {
+    left:800px;
+  }
+}
+.laser {
+  animation: blink .5s infinite;
+  -webkit-animation: blink .5s infinite;
+  -moz-animation: blink .5s infinite;
+}
+.brain {
+  background: radial-gradient(circle, white 15%, transparent 40%), #cc5;
+  background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5; 
+  background: -webkit-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+  background-size: 75px 150px;
+  height: 150px;
+  width: 150px;
+  border-radius: 60px 60px 10px 10px;
+  border-bottom: 40px solid #666;
+  position: relative;
+  left: 70px;
+}
+.torso {
+  height: 0;
+  width: 140px;
+  border-top: 300px solid #bc6;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-radius: 20px 20px 100px 100px;
+}
+@keyframes danc
+{
+  from
+  {
+    transform: rotate(220deg);
+  -webkit-transform: rotate(220deg);
+  -moz-transform: rotate(220deg);
+  }
+}
+@-webkit-keyframes danc
+{
+  from
+  {
+transform: rotate(220deg);
+  -webkit-transform: rotate(220deg);
+  -moz-transform: rotate(220deg);
+  }
+}
+@-moz-keyframes danc
+{
+  from
+  {
+    transform: rotate(220deg);
+  -webkit-transform: rotate(220deg);
+  -moz-transform: rotate(220deg);
+  }
+}
+@keyframes danc2
+{
+  from
+  {
+    transform: scaleY(-1) rotate(40deg);
+  -webkit-transform: scaleY(-1) rotate(40deg);
+  -moz-transform: scaleY(-1) rotate(40deg);
+  }
+}
+@-webkit-keyframes danc2
+{
+  from
+  {
+transform: scaleY(-1) rotate(40deg);
+  -webkit-transform: scaleY(-1) rotate(40deg);
+  -moz-transform: scaleY(-1) rotate(40deg);
+  }
+}
+@-moz-keyframes danc2
+{
+  from
+  {
+    transform: scaleY(-1) rotate(40deg);
+  -webkit-transform: scaleY(-1) rotate(40deg);
+  -moz-transform: scaleY(-1) rotate(40deg);
+  }
+}
+.left {
+animation: danc 3s infinite alternate;
+  -webkit-animation: danc 3s infinite alternate;
+  -moz-animation: danc 3s infinite alternate;
+  font-family: 'Poller One', verdana, arial, sans-serif;
+  font-weight: bold;
+  font-size: 250px;
+  color: #666;
+  transform: rotate(200deg);
+  -webkit-transform: rotate(200deg);
+  -moz-transform: rotate(200deg);
+  position: relative;
+  top: -320px;
+  left: -190px;
+  z-index: -1;
+}
+.right {
+animation: danc2 3s infinite alternate;
+  -webkit-animation: danc2 3s infinite alternate;
+  -moz-animation: danc2 3s infinite alternate;
+  font-family: 'Poller One', verdana, arial, sans-serif;
+  font-weight: bold;
+  font-size: 250px;
+  color: #666;
+  transform: scaleY(-1) rotate(20deg);
+  -webkit-transform: scaleY(-1) rotate(20deg);
+  -moz-transform: scaleY(-1) rotate(20deg);
+  position: relative;
+  top: -620px;
+  left: 190px;
+  z-index: -1;
+}
+.foot {
+  height: 40px;
+  width: 40px;
+  background: #ccc;
+  border-radius: 40px;
+  border: 15px solid #999;
+  position: relative;
+  left: 70px;
+  top: -10px;
+  z-index: -1;
+}
+.foot2 {
+  height: 40px;
+  width: 40px;
+  background: #ccc;
+  border-radius: 40px;
+  border: 15px solid #999;
+  position: relative;
+  left: 150px;
+  top: -80px;
+  z-index: -1;
+}
+.dancing
+{
+  animation: dance 4s infinite alternate;
+  -webkit-animation: dance 4s infinite alternate;
+  -moz-animation: dance 4s infinite alternate;
+  position: absolute;
+  top: 350px;
+  left: 100px;
+}
+.dancing2 {
+	position: absolute;
+	top: 300px;
+	left:920px;
+}
